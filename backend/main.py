@@ -24,18 +24,18 @@ def get_chart_data() -> Dict[str, List[Dict[str, Union[str, int]]]]:
     Simula auditorías ambientales y emisiones reducidas durante un año
     """
     data = [
-        {"month": "Enero", "auditorias": 12, "emisiones_reducidas": 450},
-        {"month": "Febrero", "auditorias": 15, "emisiones_reducidas": 520},
-        {"month": "Marzo", "auditorias": 14, "emisiones_reducidas": 480},
-        {"month": "Abril", "auditorias": 18, "emisiones_reducidas": 610},
-        {"month": "Mayo", "auditorias": 22, "emisiones_reducidas": 730},
-        {"month": "Junio", "auditorias": 20, "emisiones_reducidas": 680},
-        {"month": "Julio", "auditorias": 25, "emisiones_reducidas": 790},
-        {"month": "Agosto", "auditorias": 27, "emisiones_reducidas": 820},
-        {"month": "Septiembre", "auditorias": 24, "emisiones_reducidas": 760},
-        {"month": "Octubre", "auditorias": 28, "emisiones_reducidas": 880},
-        {"month": "Noviembre", "auditorias": 31, "emisiones_reducidas": 950},
-        {"month": "Diciembre", "auditorias": 34, "emisiones_reducidas": 1020},
+        {"mes": "Enero", "auditorias": 12, "emisiones_reducidas": 450},
+        {"mes": "Febrero", "auditorias": 15, "emisiones_reducidas": 520},
+        {"mes": "Marzo", "auditorias": 14, "emisiones_reducidas": 480},
+        {"mes": "Abril", "auditorias": 18, "emisiones_reducidas": 610},
+        {"mes": "Mayo", "auditorias": 22, "emisiones_reducidas": 730},
+        {"mes": "Junio", "auditorias": 20, "emisiones_reducidas": 680},
+        {"mes": "Julio", "auditorias": 25, "emisiones_reducidas": 790},
+        {"mes": "Agosto", "auditorias": 27, "emisiones_reducidas": 820},
+        {"mes": "Septiembre", "auditorias": 24, "emisiones_reducidas": 760},
+        {"mes": "Octubre", "auditorias": 28, "emisiones_reducidas": 880},
+        {"mes": "Noviembre", "auditorias": 31, "emisiones_reducidas": 950},
+        {"mes": "Diciembre", "auditorias": 34, "emisiones_reducidas": 1020},
     ]
     
     return {"data": data}

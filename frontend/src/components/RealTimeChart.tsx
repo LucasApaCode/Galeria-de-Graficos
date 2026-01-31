@@ -94,7 +94,7 @@ export default function RealTimeChart() {
           >
             <CartesianGrid strokeDasharray="3 3" />
             <XAxis
-              dataKey="month"
+              dataKey="mes"
               tick={{ fontSize: 12 }}
               angle={-45}
               textAnchor="end"
