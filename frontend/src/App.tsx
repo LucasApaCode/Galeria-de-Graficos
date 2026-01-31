@@ -11,7 +11,6 @@ function App() {
     <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100">
       {/* Header */}
       <header className="relative bg-gradient-to-br from-emerald-600 via-teal-600 to-blue-700 shadow-xl overflow-hidden">
-        {/* Decorative background elements */}
         <div className="absolute inset-0"></div>
         <div className="absolute top-0 right-0 w-96 h-96 bg-white/5 rounded-full -translate-y-1/2 translate-x-1/2 blur-3xl"></div>
         <div className="absolute bottom-0 left-0 w-80 h-80 bg-blue-500/10 rounded-full translate-y-1/2 -translate-x-1/2 blur-3xl"></div>
